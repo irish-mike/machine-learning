@@ -3,7 +3,8 @@ from contextlib import nullcontext
 import numpy as np
 from numpy.ma.extras import average
 
-from num_py.config.constants import *
+from num_py.config.common_constants import MONTH
+from num_py.config.rainfall_constants import *
 from utils.utils import print_rows
 
 

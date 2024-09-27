@@ -1,9 +1,7 @@
-from num_py.rainfall_analysys import RainfallAnalysis
+from num_py.bike_rental_analysis import BikeRentalAnalysis
 
-def main():
-    rainfall = RainfallAnalysis()
-    rainfall.run_all()
-    pass
+# rainfall = RainfallAnalysis()
+# rainfall.run_all()
 
-
-main()
+bike_rental_analysis = BikeRentalAnalysis()
+bike_rental_analysis.run_all()
